@@ -1,79 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Travel Home Page</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="homepage.css">
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<style>
-		.logo {
-			display: inline-block;
-			vertical-align: middle;
-			margin-right: 5px;
-			width: 60px;
-			height: 50px;
-			background-image: url(./logo.png);
-			background-size: cover;
-		}
-
-		h1 {
-			display: inline-block;
-			vertical-align: middle;
-			font-size: 36px;
-			font-weight: bold;
-			margin: 0;
-		}
-	</style>
 </head>
 <body>
-	<!-- Header -->
-	<div class="header">
-        <div class="logo"></div>
 
-		<h1>Waestem</h1>
-		<p>Welcome to our travel website</p>
-	</div>
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Waestem</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+                <a class="nav-link" href="./index.html">Sign In</a>
+            </li>
+			
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
 
-	<!-- Navigation bar -->
-    <nav class="navbar">
-		<ul class="navbar-nav">
-			<li class="nav-item">
-				<a class="nav-link" href="#">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Destinations</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Tours</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Hotels</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Contact Us</a>
-			</li>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./index.html">Log in</a>
-        </li>
-		</ul>
-	</nav>
+            <li class="nav-item">
+                <a class="nav-link" href="./services.css">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contactUs.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-	<!-- Main content -->
-	<div class="main-content">
-		<h2>Explore the World with Us</h2>
-		<p>Discover amazing destinations, book tours and hotels with ease</p>
-		<button class="btn btn-primary">Explore</button>
-	</div>
-    
-	<!-- Footer -->
-	<div class="footer">
-		<p>Travel Around the World &copy; 2023</p>
-	</div>
-</body>
-</html>
+<!-- Header -->
+<header class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Explore the world with us!</h1>
+        <p class="lead">Embark on a journey of a lifetime with our travel company. We specialize in crafting unforgettable experiences that take you off the beaten path and immerse you in different cultures. </p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+</header>
+
+<!-- Main content -->
+<main class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="../public/france1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">France</h4>
+                    <p class="card-text">France is a country located in Western Europe, known for its iconic landmarks such as the Eiffel Tower and the Louvre Museum. It's famous for its world-renowned cuisine, wine, and fashion, as well as its rich history and culture.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="../public/italy1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Italy</h4>
+                    <p class="card-text">Italy, located in southern Europe, is renowned for its rich history, culture, and cuisine. It boasts some of the world's most famous landmarks, including the Colosseum and the Leaning Tower of Pisa, and is home to numerous iconic cities such as Rome, Florence, and Venice.
+
+
+
+					</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md
+		-6 mb-4">
+		<div class="card h-100">
+		<img class="card-img-top" src="../public/germany1.jpg" alt="Card image cap">
+		<div class="card-body">
+		<h4 class="card-title">Germany</h4>
+		<p class="card-text">Germany, located in Central Europe, is known for its historic landmarks, world-class museums, beer, and engineering expertise. It's a country that has played a pivotal role in shaping modern European history.</p>
+		</div>
+		</div>
+		</div>
+		</div>
+		
+		</main>
+		<!-- Footer -->
+		<footer class="footer bg-light">
+			<div class="container">
+				<p>&copy; Waestem. All rights reserved.</p>
+			</div>
+		</footer>
+		<!-- Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		</body>
+		</html>

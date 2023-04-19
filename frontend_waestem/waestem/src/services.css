@@ -1,0 +1,45 @@
+/* Style for the navigation bar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Style for the page header */
+.jumbotron {
+    background-image: url("https://via.placeholder.com/1200x400");
+    background-size: cover;
+    height: 400px;
+    color: white;
+}
+
+.jumbotron h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 24px;
+}
+
+/* Style for the services cards */
+.card {
+    border: none;
+}
+
+.card-img-top {
+    border-radius: 5px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 18px;
+}
